@@ -27,6 +27,6 @@ public class UITest extends TestBase{
     @DisplayName("remote test")
     void testRemote(){
         open("https://yandex.ru/");
-        
+
     }
 }
