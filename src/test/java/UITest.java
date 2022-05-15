@@ -22,11 +22,4 @@ public class UITest extends TestBase{
         $("#login-form-submit").click();
         $("#announcement-banner").shouldNotBe(visible);
     }
-
-    @Test
-    @DisplayName("remote test")
-    void testRemote(){
-        open("https://yandex.ru/");
-
-    }
 }
